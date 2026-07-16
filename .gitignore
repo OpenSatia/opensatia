@@ -1,0 +1,31 @@
+# macOS and editors
+.DS_Store
+.idea/
+.vscode/
+
+# Dependencies and generated output
+node_modules/
+dist/
+build/
+coverage/
+.next/
+.vite/
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Local and private runtime data
+data/private/
+provider-snapshots/
+diagnostics/private/
+*.sqlite
+*.sqlite3
+
+# Logs and caches
+*.log
+.cache/
+tmp/
