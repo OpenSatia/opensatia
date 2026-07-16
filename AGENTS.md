@@ -1,6 +1,6 @@
 # OpenSatia Public Build Guide
 
-Last edited: 2026-07-16 12:57:59 GMT+8
+Last edited: 2026-07-16 13:15:15 GMT+8
 
 This worktree maps to `https://github.com/OpenSatia/opensatia`. It is the
 public-facing implementation and submission repository for OpenSatia. OpenAI
@@ -11,6 +11,9 @@ Build Week is the current execution constraint, not the product identity.
 - Read `README.md` for the product promise and current public status.
 - Read `docs/technical-overview.md` for the first-roll contract, architecture,
   safety boundary, and evaluation targets.
+- Read `CONTRIBUTING.md` before preparing a public issue or pull request.
+- Read `SECURITY.md` before handling a vulnerability, sensitive diagnostic, or
+  provider-action safety failure.
 - Keep changes centered on a runnable first-roll experience that produces
   three safe, honest cart options with minimal user effort.
 
